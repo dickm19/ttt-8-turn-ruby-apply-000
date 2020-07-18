@@ -50,7 +50,7 @@ end
      move(board, converted_input)
      display_board(board)
    else
-     turn(board,user_input = gets.strip)
+     turn(board)
    end
    
  end
